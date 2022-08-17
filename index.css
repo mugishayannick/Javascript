@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+}
+
+.container {
+    background-image: url(./passenger.png);
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 500px;
+    gap: 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid black;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn-increment {
+    padding: 10px 70px;
+    border-radius: 10px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.btn-save {
+    padding: 10px 70px;
+    border-radius: 10px;
+    border: none;
+    background-color: green;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
