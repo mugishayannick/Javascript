@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 20rem;
+    background: whitesmoke;
+    margin: 0 auto;
+    width: 70%;
+}
+
+#apple-shelf {
+    background: lightcoral;
+    border-radius: 10px;
+    height: 50px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+#orange-shelf {
+    background: lightsalmon;
+    border-radius: 10px;
+    height: 50px;
+    text-align: center;
+}

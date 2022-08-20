@@ -10,7 +10,7 @@ function increment() {
 }
 
 function save() {
+
     let countStr = count + " - "
-    saveEl.textContent = "Previous Entries:" + " " +countStr
-    countEl.textContent = 0
+    saveEl.textContent += countStr
 }
